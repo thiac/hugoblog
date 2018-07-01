@@ -1,7 +1,7 @@
-baseURL = "https://just4tuts.github.io/"
+baseURL = "https://thiac.github.io/"
 theme = "hugo-goa"
-author = "M.G"
-title = "Another Hugo Blog"
+author = "thiac"
+title = "Another Hugo "
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
@@ -11,11 +11,11 @@ publishdir = "public"
 
 
 [params]
-author = "M.G"
-intro = "But nobody is not nothing"
+author = "thiac"
+intro = "The heart is a child"
 description = "Description"
 authorimage = "mg.jpg"
-dateformat = "Jan 2, 2006"
+dateformat = "Jan 2, 2018"
 
 [params.meta]
 description = "Simple minimalist theme"
@@ -38,4 +38,11 @@ highlightjs = true
     name = "blog"
     weight = 100
     identifier = "blog"
+    url = "/post/"
+
+
+[[menu.main]]
+    name = "about"
+    weight = 100
+    identifier = "about"
     url = "/post/"
